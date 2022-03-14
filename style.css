@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+section.container{
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section div.left{
+    background-color: rgb(248, 206, 213);
+    color: rgb(71, 71, 71);
+    font-family: tahoma;
+    width: 70%;
+    padding: 30px;
+    margin: 100px auto ;
+    border-radius: 5px;
+    box-shadow: 3px 4px 3px #ccc , -8px -4px 50px;
+}
+.btn{
+    width: 100px;
+    display: block;
+    padding: 7px; 
+    border: none ;
+    background-color: rgb(88, 1, 31);
+    color: white;
+    font-weight: bolder;
+    margin: -80px auto;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px #ccc;
+    font-family: tahoma;
+    transition: all 0.5s ease-out;
+}
+.btn:hover{
+    background-color: rgb(226, 90, 113);
+    cursor: pointer;
+    transform: scale(1.5);
+}
+section.content{
+    background-color: rgb(185, 182, 182);
+    padding: 40px;
+    
+}
+.parent p{
+  background-color: cornsilk;
+  margin-bottom: 10px;
+  color: rgb(70, 69, 69);
+  padding: 10px;
+  border-radius: 8px;
+}
+.parent >p{
+    background-color: rgb(247, 235, 199);
+    color: rgb(70, 69, 69);
+  }
+.parent div+section p{
+    background-color: pink;
+}
+.parent + h4{
+    color:purple;
+    font-size: larger;
+    font-style: italic;
+    font-family: tahoma;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.selectors :first-child p{
+    background-color:rgb(252, 217, 223);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.selectors :first-child h3:first-of-type{
+    color:rgb(0, 17, 53);
+    font-size: larger;
+    text-shadow: 1.5px 1px rgb(0, 17, 53);
+}
+.selectors :first-child h3:last-of-type{
+    color:rgb(143, 14, 74);
+    margin-top: 5px;
+}
+.selectors :last-child p{
+    background-color: rgb(252, 217, 223);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.selectors :last-child h3:first-of-type{
+    color:rgb(0, 17, 53);
+    font-size: larger;
+    text-shadow: 1.5px 1px rgb(0, 17, 53);
+}
+.selectors :last-child h3:last-of-type{
+    color:rgb(143, 14, 74);
+    margin-top: 5px;
+}
+.footer{
+    background-color: rgb(253, 228, 232);
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+}  
+.footer :first-child{
+    width:50%;
+    float :left;
+}
+.footer div:last-of-type{
+    width: 50%;
+    float:right;
+}
+
+.myBtn{
+    padding: 7px; 
+    border: none ;
+    background-color: rgb(88, 1, 31);
+    color: white;
+    font-weight: bolder;
+    margin: 10px ;
+    border-radius: 10px;
+    font-family: tahoma;
+}
+
+footer{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+}
+form input{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    outline: 8;
+    border-radius: 5px;
+    border:none ;
+}
+input[type=email],
+input[type=password],
+input[type $=t]{
+    background-color:rgb(201, 218, 253)  ;
+}
+
+ 
